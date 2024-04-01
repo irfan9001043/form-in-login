@@ -1,0 +1,72 @@
+ *{
+    margin:0;
+    padding:0;
+
+ }
+
+
+body {
+    display:flex;
+    place-items:center;
+     justify-content: center;
+     min-height: 100vh;
+    background:url("images/m\ \(2\).jpg")no-repeat;
+    background-position:center;
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+    
+}
+
+.irfan {
+    width: 400px;
+    height: 200px;
+    border: 1px solid white;
+    backdrop-filter: blur(5px);
+    padding: 40px;
+
+
+}
+
+.irfan h1 {
+    text-align:center;
+    color:white;
+}
+
+
+
+
+.irfan .input-box input{
+    margin: 10px;
+     justify-content: space-between; 
+     border: 1px solid white; 
+    border-radius: 20px;
+    text-align:center;
+
+}
+.input-box input::placeholder{
+    text-align: center;
+}
+
+.irfan .btn {
+    cursor:pointer;
+    width:90%;
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+
+.irfan .register-link p a {
+    text-decoration:none;
+    color:white;
+}
+
+.irfan .register-link p a:hover{
+    text-decoration:underline;
+}
+
+.irfan .register-link p{
+    text-align:center;
+    margin:10px;
+    color:white;
+}
